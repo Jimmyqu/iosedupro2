@@ -1,0 +1,40 @@
+{
+  "name": "edu",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "bundle-ios": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.ios.js --platform ios --dev false --bundle-output ./ios/bundle/main.jsbundle --assets-dest ./ios/bundle"
+  },
+  "dependencies": {
+    "react": "16.2.0",
+    "react-native": "0.53.3",
+    "react-native-background-timer": "^2.0.1",
+    "react-native-baidumap-sdk": "^0.5.4",
+    "react-native-elements": "^0.19.0",
+    "react-native-image-picker": "^0.26.7",
+    "react-native-loading-spinner-overlay": "^0.5.2",
+    "react-native-md5": "^1.0.0",
+    "react-native-root-toast": "^3.0.1",
+    "react-native-simple-dialogs": "^0.3.1",
+    "react-native-smscode-count-down": "^0.1.14",
+    "react-native-star-rating": "^1.0.9",
+    "react-native-storage": "^0.2.2",
+    "react-native-swiper": "^1.5.13",
+    "react-native-table-component": "^1.1.3",
+    "react-native-vector-icons": "^4.5.0",
+    "react-native-yunpeng-alipay": "^2.0.0",
+    "react-navigation": "^1.1.2",
+    "tcomb-form-native": "^0.6.11"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.2",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
